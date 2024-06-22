@@ -8,7 +8,7 @@ arch=('x86_64')
 url="https://git.dec05eba.com/gpu-screen-recorder"
 license=('GPL3')
 makedepends=('meson')
-depends=('ffmpeg' 'libglvnd' 'libxcomposite' 'libxrandr' 'libxfixes' 'libxi' 'libx11' 'libpulse' 'libva' 'libdrm' 'libcap' 'wayland')
+depends=('ffmpeg' 'libglvnd' 'libxcomposite' 'libxrandr' 'libxfixes' 'libxi' 'libx11' 'libpulse' 'libva' 'libdrm' 'libcap' 'wayland' 'libxdamage')
 optdepends=(
     'nvidia-utils: Required to record your screen on NVIDIA'
     'libxnvctrl: Required when using the -oc option to overclock the NVIDIA GPU to workaround NVIDIA p2 state bug'
